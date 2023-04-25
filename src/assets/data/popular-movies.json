@@ -1,0 +1,130 @@
+[
+    {
+      "id": 1,
+      "name": "Shawshank Redemption",
+      "cover": "https://resizing.flixster.com/StPZgrWLsXXnJQ7OMaPltNzzsaw=/130x206/v2/https://flxt.tmsimg.com/assets/p15987_p_v8_ai.jpg",
+      "rating": 4.6,
+      "reviews": [
+        {
+          "author": "Katie Chavez",
+          "published_on": "2021-11-18 11:37:19",
+          "review": "Awesome movie!",
+          "rating": 4.5
+        },
+        {
+          "author": "John Barnett",
+          "published_on": "2021-10-13 10:16:39",
+          "review": "Nice movie to watch in theatre!",
+          "rating": 4.0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Godfather",
+      "cover": "https://resizing.flixster.com/6XaDUcYrXS_kVUiFG6ktm8tybKI=/fit-in/130x206/v2/https://flxt.tmsimg.com/assets/p9067159_b_v7_ab.jpg",
+      "rating": 4.55,
+      "reviews": [
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Godfather II",
+      "cover": "https://resizing.flixster.com/6XaDUcYrXS_kVUiFG6ktm8tybKI=/fit-in/130x206/v2/https://flxt.tmsimg.com/assets/p9067159_b_v7_ab.jpg",
+      "rating": 4.5,
+      "reviews": [
+        {
+          "author": "Michael Schwartz",
+          "published_on": "2021-10-11 11:57:39",
+          "review": "Good but confusing",
+          "rating": 4.0
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Batman: The dark Knight",
+      "cover": "https://resizing.flixster.com/WAHXGKleT3QvhqHUlFGIRgcQAjU=/130x206/v2/https://flxt.tmsimg.com/assets/p173378_p_v8_au.jpg",
+      "rating": 4.5,
+      "reviews": [
+        {
+          "author": "Jessica Black",
+          "published_on": "2020-10-23 11:27:39",
+          "review": "Awesome movie!",
+          "rating": 4.5
+        },
+        {
+          "author": "Jasmine Hall",
+          "published_on": "2021-10-11 11:27:39",
+          "review": "Very good movie to watch!",
+          "rating": 4.0
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "12 Angry Men",
+      "cover": "https://resizing.flixster.com/G2JTUZwlZ2bxncICjRzOIJBLDrQ=/130x206/v2/https://flxt.tmsimg.com/assets/p2084_p_v8_ar.jpg",
+      "rating": 4.45,
+      "reviews": [
+        {
+          "author": "Beverly Crawford",
+          "published_on": "2020-10-13 11:27:39",
+          "review": "Nice graphics!",
+          "rating": 4.5
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Schindler's List",
+      "cover": "https://resizing.flixster.com/cXlOxXroihV7WLt6sNbVMb6_SYs=/130x206/v2/https://flxt.tmsimg.com/assets/p15227_p_v13_be.jpg",
+      "rating": 4.45,
+      "reviews": [
+        {
+          "author": "Patrick Myers",
+          "published_on": "2021-10-13 11:37:29",
+          "review": "Lengthy movie",
+          "rating": 3.5
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "The Lord of the Rings: The Return of the King",
+      "cover": "https://resizing.flixster.com/SCs35-FvuLFrtxcSSNzvGE6wg7U=/130x206/v2/https://flxt.tmsimg.com/assets/p33156_p_v8_aq.jpg",
+      "rating": 4.45,
+      "reviews": [
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Pulp Fiction",
+      "cover": "https://resizing.flixster.com/CQ-37RY0T4l_bp46NJV6xyIPFYQ=/130x206/v2/https://flxt.tmsimg.com/assets/p15684_p_v8_af.jpg",
+      "rating": 4.40,
+      "reviews": [
+      ]
+    },
+    {
+      "id": 9,
+      "name": "The Good, the Bad and the Ugly",
+      "cover": "https://resizing.flixster.com/ofMWj9FQLR4I6gMc1jLnmfjgjRY=/130x206/v2/https://flxt.tmsimg.com/assets/p4161_p_v8_av.jpg",
+      "rating": 4.40,
+      "reviews": [
+      ]
+    },
+    {
+      "id": 10,
+      "name": "The Lord of the Rings: The Fellowship of the Ring",
+      "cover": "https://resizing.flixster.com/BHAfmFxBmHmgzzV_R18DpIOnohc=/130x206/v2/https://flxt.tmsimg.com/assets/p28828_p_v8_ao.jpg",
+      "rating": 4.40,
+      "reviews": [
+        {
+          "author": "Erica Leach",
+          "published_on": "2021-10-10 11:27:39",
+          "review": "Awesome movie!",
+          "rating": 4.5
+        }
+      ]
+    }
+  ]

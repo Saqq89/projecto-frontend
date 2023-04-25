@@ -1,0 +1,25 @@
+<div class="login-container">
+    <img class="film" src="assets/images/film.png" alt="">
+    <div class="logo">Rotten Apples</div>
+    <div class="desc">
+        Rotten Apples es la pagina de recomendaciones más confiable del mundo para entretenimiento de calidad.
+        Como principal agregador en línea de reseñas de películas y programas de televisión de los críticos,
+        brindamos a los fanáticos una guía completa sobre lo que está fresco y lo que está podrido en los cines 
+        y en el hogar. Si eres un fanático del entretenimiento que busca recomendaciones o compartir una opinión, 
+        has venido al lugar correcto.
+    </div>
+    <div class="login-form">
+        <div class="form-group">
+            <label for="uname">Nombre de Usuario</label>
+            <input type="text" name="uname" placeholder="user" class="form-control" [(ngModel)]="username"/>
+        </div>
+        <div class="form-group">
+            <label for="pword">Contraseña</label>
+            <input type="password" name="pword" placeholder="user" class="form-control" [(ngModel)]="password" />
+        </div>
+        <div class="btn-container">
+            <div class="error">{{ errorMsg }}</div>
+            <button class="btn btn-dark" (click)="login()">Iniciar Sesion</button>
+        </div>
+    </div>
+</div>

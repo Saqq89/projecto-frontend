@@ -1,0 +1,106 @@
+.movie-container {
+    width: 150vh;
+    margin: 0 auto;
+    .top {
+        display: flex;
+        .left {
+            width: 45vh;
+            .name {
+                font-size: 1.5rem;
+                font-weight: bold;
+            }
+            .rating {
+                display: flex;
+                align-items: center;
+                margin-bottom: 15px;
+                .rating-value {
+                    margin-left: 20px;
+                    font-weight: bold;
+                    font-size: 1.3em;
+                }
+            }
+            .cover {
+                width: 40vh;
+                height: 65vh;
+                margin-right: 50px;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+        .right {
+            width: 90vh;
+            padding-top: 20vh;
+            .title {
+                margin-bottom: 0.5em;
+                font-weight: bold;
+                font-size: 1.5em;
+            }
+            .rating-form {
+                .form-group {
+                    margin-bottom: 0.2em;
+                }
+                label {
+                    font-weight: bold;
+                    margin-bottom: 0.1em;
+                    font-size: small;
+                }
+                textarea {
+                    resize: none;
+                }
+            }
+            .btn-container {
+                margin-top: 1em;
+            }
+        }
+    }
+    .bottom {
+        margin-top: 50px;
+        .title {
+            margin-bottom: 30px;
+        }
+        .reviews {
+            width: 150vh;
+            .review {
+                margin-bottom: 25px;
+                background-color: #f1f1f1;
+                padding: 20px;
+                border-radius: 5px;
+                .review-details {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-bottom: 20px;
+                    .review-left {
+                        .author {
+                            font-size: 18px;
+                            font-weight: bold;
+                        }
+                        .author-dt {
+                            opacity: 0.7;
+                        }
+                        .author-review {
+                            font-size: 25px;
+                        }
+                    }
+                    .review-right {
+                        .rating {
+                            display: flex;
+                            align-items: center;
+                            .rating-value {
+                                margin-left: 10px;
+                                font-size: 25px;
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                }
+            }
+            .no-reviews {
+                height: 100px;
+                font-size: 20px;
+            }
+        }
+    }
+}

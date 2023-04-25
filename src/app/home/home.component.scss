@@ -1,0 +1,91 @@
+.home-container {
+    display: flex;
+    .all-movies {
+        width: 75%;
+        min-height: calc(100vh - 8vh);
+        border-right: 0.1vh solid #B91437;
+        padding: 1rem 2rem;
+        font-family: "Roboto", sans-serif;
+        .top {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 0.8rem;
+            h4 {
+                text-transform: uppercase;
+                font-weight: bold;
+                border-left: 5px solid #B91437;
+                padding-left: 0.5rem;
+                font-size: medium;
+            }
+            .view-all {
+                color: #B91437;
+                font-weight: bold;
+                cursor: pointer;
+                font-size: small;
+            }
+        }
+        .movies-thumbnail {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+            .movie {
+                .cover {
+                    cursor: pointer;
+                    img {
+                        border-radius: 5px;
+                    }
+                }
+                .detail {
+                    width: 9rem;
+                    .name {
+                        font-weight: bold;
+                        font-size: small;
+                        height: 2rem;
+                        margin-top: 5px;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+    .popular-movies {
+        width: 25%;
+        min-height: calc(100vh - 80px);
+        padding: 20px 40px;
+        font-family: "Roboto", sans-serif;
+        h4 {
+            text-transform: uppercase;
+            font-weight: bold;
+            border-left: 5px solid #B91437;
+            padding-left: 0.5rem;
+            font-size: medium;
+        }
+        .movies {
+            .movie {
+                margin-bottom: 20px;
+                margin-top: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .name {
+                font-weight: bold;
+                font-size: small;
+                cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+.rating{
+    padding-right: 3rem;
+    position: relative;
+    .rating-value{
+        position: absolute;
+        top: 0.6rem;
+        right: 1rem;
+        font-weight: bold;
+        font-size: medium;
+    }
+}
